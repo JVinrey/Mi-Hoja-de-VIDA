@@ -1,0 +1,102 @@
+/* ========== ESTILO GENERAL DEL CUERPO ========== */
+body {
+    font-family: Georgia, sans-serif;      /* Tipografía principal */
+    background-color: #d0eefb;             /* Color de fondo suave */
+    display: flex;                         /* Flexbox para alinear elementos hijos */
+    justify-content: center;               /* Centra horizontalmente el contenido */
+}
+
+/* ========== LÍNEAS DIVISORIAS ========== */
+hr {
+    border: none;                          /* Elimina el borde por defecto */
+    border-top: 2px solid blue;            /* Agrega una línea superior azul */
+    margin: 20px 0;                        /* Espaciado arriba y abajo */
+}
+
+/* ========== IMAGEN DE PERFIL ========== */
+.imagenRe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;                    /* Convierte la imagen en un círculo */
+    object-fit: cover;                     /* La imagen mantiene proporción y se recorta si es necesario */
+    display: block;
+    margin: 0 auto 20px auto;              /* Centra la imagen horizontalmente y deja espacio abajo */
+    border: 4px solid white;               /* Borde blanco */
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);   /* Sombra suave */
+}
+
+/* ========== SECCIONES (tarjeta lateral) ========== */
+.seccion {
+    margin-bottom: 50px;                   /* Espaciado entre secciones */
+}
+
+/* ========== TÍTULOS SECUNDARIOS ========== */
+h2 {
+    font-size: 16px;                       /* Tamaño del texto */
+    margin-bottom: 10px;
+    text-transform: uppercase;             /* Convierte el texto a mayúsculas */
+    color: #333;                           /* Color de texto gris oscuro */
+}
+
+/* ========== LISTAS ========== */
+ul {
+    padding-left: 20px;                    /* Sangría a la izquierda */
+    margin: 15px 0;                        /* Espacio arriba y abajo */
+}
+
+ul li {
+    margin-bottom: 10px;                   /* Espacio entre elementos de lista */
+}
+
+/* ========== TARJETA IZQUIERDA (perfil) ========== */
+.tarjeta {
+    width: 250px;                          /* Ancho fijo */
+    height: 1190px;                        /* Alto fijo */
+    background-color: #b7cef3;             /* Fondo azul claro */
+    padding: 20px;                         /* Espaciado interior */
+    margin-top: 20px;                      /* Separación superior respecto al borde */
+}
+
+/* ========== CAJA CON NOMBRE PRINCIPAL ========== */
+.caja {
+    width: 800px;
+    height: 300px;
+    background-color: #061c3f;             /* Azul oscuro */
+    color: aliceblue;                      /* Letra blanca azulada */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;               /* Centrado horizontal */
+    align-items: center;                   /* Centrado vertical */
+    padding: 20px;
+}
+
+/* ========== CONTENIDO PRINCIPAL DEL CURRÍCULUM ========== */
+.contenido {
+    width: 800px;
+    height: 850px;
+    background-color: white;
+    padding: 20px;
+}
+
+/* ========== TABLA DE REFERENCIAS ========== */
+.tabla-contactos {
+    width: 100%;                           /* Ocupa todo el ancho disponible */
+    max-width: 800px;
+    border-collapse: collapse;             /* Elimina espacios entre bordes de celdas */
+    margin: 30px auto;                     /* Centra la tabla y da espacio vertical */
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);   /* Sombra suave */
+}
+
+.tabla-contactos th,
+.tabla-contactos td {
+    border: 1px solid #ccc;                /* Borde gris claro */
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.tabla-contactos th {
+    background-color: #0d2d4f;             /* Azul oscuro para el encabezado */
+    color: white;
+}
